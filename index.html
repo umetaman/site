@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang='ja'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='./style/main.css'>
+    <script src="https://kit.fontawesome.com/269b36a1ba.js" crossorigin="anonymous"></script>
+    <title>umetaman.com</title>
+</head>
+<body>
+    <iframe id="background_content" scrolling="no" frameborder="no" src='http://umetaman.com/assets/threejs/fan_shape/index.html'></iframe>
+
+    <header id='header'>
+        <div id='title_container'>
+            <h1 id="site_title">umetaman.com</h1>
+            <p id='site_description'></p>
+        </div>
+    </header>
+
+    <main id='main'>
+        
+        <section class='sections' id='profile'>
+            <h2 class='section-titles'>Profile</h2>
+            <div class='section-contents'>
+                <div class='profile-columns'>
+                    <img src='./assets/dummy_512.png' alt='' id='profile_picture'>
+                </div>
+
+                <div class='profile-columns' id='profile_container'>
+                    <div id='profile_name'>
+                        <p id='name'>Yuya Umeta</p>
+                        <p id='position'>Programmer</p>
+                    </div>
+
+                    <div id='profile_career'>
+                        <h3 id='career_title'>Career</h3>
+                        <ul id='career_list'>
+                            <li class='career-items'>Sanbongi High School<span class='grad-years'>(2012 ~ 2016)</span></li>
+                            <li class='career-items'>Miyagi University, Project Design, Media Design<span class='grad-years'>(2016 ~ 2020)</span></li>
+                            <li class='career-items'>WOW inc.<span class='grad-years'>(2020 ~ )</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class='sections' id="skill">
+            <h2 class='section-titles'>Skills</h2>
+            <div class='section-contents'>
+                <div class='profile-columns'>
+                    <ul id='skill_list'>
+                        <li class='skill-items'>openFrameworks, C++</li>
+                        <li class='skill-items'>Unity, C#</li>
+                        <li class='skill-items'>HTML / CSS / JavaScript</li>
+                        <li class='skill-items'>Python</li>
+                        <li class='skill-items'>PHP</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section class='sections' id="portfolio">
+            <h2 class='section-titles'>Portfolio</h2>
+            <div class='section-contents' id="thumbnail_container">
+                <a href='#' class='portfolio-links'><img src='./assets/thumbnails/nagare.jpg' alt='' class='portfolio-thumbnails'></a>
+                <a href='#' class='portfolio-links'><img src='./assets/thumbnails/thepranks_universe.jpg' alt='' class='portfolio-thumbnails'></a>
+                <a href='#' class='portfolio-links'><img src='./assets/thumbnails/myu_20th.jpg' alt='' class='portfolio-thumbnails'></a>
+            </div>
+        </section>
+    
+    </main>
+
+    <footer id='footer'>
+        <section id="media">
+            <a href='https://facebook.com/yuya.umeta'><i class="fab fa-facebook-square"></i></a>
+            <a href='https://twitter.com/umetaman/'><i class="fab fa-twitter"></i></a>
+            <a href='https://github.com/umetaman/'><i class="fab fa-github"></i></a>
+        </section>
+        <p id="copyright">
+            <span id='copyright_icon'><i class="fas fa-copyright"></i></span>
+            Yuya Umeta, 2020
+        </p>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

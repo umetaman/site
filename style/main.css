@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 18px;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+iframe#background_content {
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -999;
+  border: none;
+}
+
+iframe#background_content canvas#threejs_canvas {
+  overflow: hidden;
+  border: none;
+}
+
+header, main, footer {
+  margin: 0 auto;
+}
+
+header, main {
+  margin-bottom: 32px;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+header#header {
+  background-color: rgba(255, 255, 255, 0.75);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 450px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+}
+
+header#header div#title_container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 2rem;
+  width: 80%;
+  height: 70%;
+  max-width: 840px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+  margin: auto;
+  text-align: center;
+}
+
+main#main {
+  width: 100%;
+  height: auto;
+  max-width: 1080px;
+}
+
+main#main > section.sections {
+  position: relative;
+  margin-bottom: 32px;
+}
+
+main#main > section.sections > .section-contents {
+  padding: 64px 0;
+}
+
+main#main > section.sections > h2.section-titles {
+  font-size: 7rem;
+  font-weight: 900;
+  position: absolute;
+  color: rgba(55, 55, 55, 0.85);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  z-index: -1;
+}
+
+main#main > section#profile > .section-contents {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+main#main > section#profile > .section-contents > div.profile-columns {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main#main > section#profile > .section-contents > div.profile-columns #profile_picture {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+}
+
+main#main > section#profile > .section-contents > div.profile-columns#profile_container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main#main > section#profile > .section-contents > div.profile-columns#profile_container > #profile_name {
+  margin-bottom: 16px;
+}
+
+main#main > section#profile > .section-contents > div.profile-columns#profile_container > #profile_name #name {
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+main#main > section#profile > .section-contents > div.profile-columns#profile_container > #profile_career > ul#career_list > span.grad-years {
+  font-size: 0.7rem;
+  padding-left: 0.5rem;
+}
+
+#portfolio > .section-contents#thumbnail_container .portfolio-thumbnails {
+  width: 100px;
+}
+/*# sourceMappingURL=main.css.map */
